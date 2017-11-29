@@ -1,0 +1,82 @@
+#promo{
+  text-align:center;
+  padding:40px;
+  background-image:url(../../assets/img/171023-logo-desktop.jpg);
+  background-size:100px;
+  margin-top:60px;
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.69);
+  max-width:800px;
+  margin:auto;
+}
+
+@media (max-width:1199px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+@media (max-width:1199px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+body{
+  font-family:Arial-helvetica-sans-serif;
+}
+
+.site-selection{
+  text-align:center;
+  padding-bottom:60px 0;
+}
+
+#welcome{
+  max-width:800px;
+  font-size:20px;
+  margin:auto;
+}
+
+.site-selection h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+i.material-icons{
+  font-size:80px;
+}
+
+h2{
+  font-weight:normal;
+}
+
+#come .item h2{
+  font-size:25px;
+}
+
+div.dark-section{
+  background-color:rgb(233,241,242);
+}
+
+#come .item{
+  padding-top:60px;
+  color:rgb(173,24,24);
+}
+
+img#logo{
+  max-height:45px;
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:#ecef45;
+  border-color:transparent;
+}
+
